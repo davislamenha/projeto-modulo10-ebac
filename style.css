@@ -81,13 +81,8 @@ nav li a {
 .lista-veiculos li {
   max-width: 30%;
   border-radius: 5px;
-  padding: 5px;
-  box-shadow: rgb(38, 57, 77) 0px 10px 15px -10px;
-  transition: 0.5s ease-in;
 }
-.lista-veiculos li:hover {
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
+
 .lista-veiculos li img {
   border-radius: 5px;
   max-width: 100%;
@@ -108,7 +103,17 @@ nav li a {
   font-weight: bold;
   font-style: italic;
 }
-.lista-veiculos li strong {
+#em-destaque .lista-veiculos li strong {
   display: block;
   margin-block: 8px;
+}
+
+/* ==== PROMOCOES ==== */
+.lista-veiculos li .preco {
+  display: block;
+  margin-block: 8px;
+}
+.lista-veiculos li .preco .del {
+  color: #ccc;
+  font-size: 14px;
 }
