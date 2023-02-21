@@ -72,3 +72,43 @@ nav li a {
 #sobre img {
   max-width: 400px;
 }
+
+/* ==== EM DESTAQUE ==== */
+.lista-veiculos {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.lista-veiculos li {
+  max-width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 10px 15px -10px;
+  transition: 0.5s ease-in;
+}
+.lista-veiculos li:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.lista-veiculos li img {
+  border-radius: 5px;
+  max-width: 100%;
+}
+.lista-veiculos li h3 {
+  margin-block: 16px;
+}
+.lista-veiculos li button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding-block: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #119759;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+.lista-veiculos li strong {
+  display: block;
+  margin-block: 8px;
+}
