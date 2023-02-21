@@ -46,6 +46,7 @@ nav li a {
   color: #fff;
 }
 .menu-hamburguer {
+  cursor: pointer;
   width: 32px;
 }
 .menu-hamburguer span {

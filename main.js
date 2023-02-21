@@ -4,3 +4,7 @@ $(document).ready(function () {
     arrows: false,
   });
 });
+
+$('.menu-hamburguer').on('click', function () {
+  $('nav').slideToggle();
+});
