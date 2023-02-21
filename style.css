@@ -19,6 +19,15 @@ body {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
 }
+.flex {
+  display: flex;
+}
+section {
+  padding-block: 40px;
+}
+section h2 {
+  margin-bottom: 16px;
+}
 
 /* ==== HEADER ==== */
 header {
@@ -27,7 +36,6 @@ header {
   color: #fff;
 }
 header > .container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
@@ -55,4 +63,12 @@ nav li a {
   height: 2px;
   width: 100%;
   margin-bottom: 6px;
+}
+
+/* ==== SOBRE ==== */
+#sobre .flex {
+  gap: 24px;
+}
+#sobre img {
+  max-width: 400px;
 }
