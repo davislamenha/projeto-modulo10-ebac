@@ -28,6 +28,19 @@ section {
 section h2 {
   margin-bottom: 16px;
 }
+button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding-block: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #119759;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
 
 /* ==== HEADER ==== */
 header {
@@ -90,19 +103,7 @@ nav li a {
 .lista-veiculos li h3 {
   margin-block: 16px;
 }
-.lista-veiculos li button {
-  cursor: pointer;
-  display: block;
-  width: 100%;
-  padding-block: 8px;
-  border: none;
-  border-radius: 5px;
-  background-color: #119759;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic;
-}
+
 #em-destaque .lista-veiculos li strong {
   display: block;
   margin-block: 8px;
@@ -116,4 +117,30 @@ nav li a {
 .lista-veiculos li .preco .del {
   color: #ccc;
   font-size: 14px;
+}
+
+/* ==== CONTATO ==== */
+form {
+  max-width: 360px;
+}
+form button {
+  max-width: 120px;
+}
+.form-campo {
+  margin-bottom: 16px;
+}
+.form-campo label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+  width: 100%;
+  display: block;
+  padding: 8px;
+}
+.form-campo textarea {
+  resize: none;
+  height: 120px;
 }
