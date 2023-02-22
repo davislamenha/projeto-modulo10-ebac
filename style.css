@@ -43,9 +43,10 @@ button {
 }
 
 /* ==== HEADER ==== */
-header {
+header,
+footer {
   background-color: #192a56;
-  padding-top: 16px;
+  padding-block: 16px 0;
   color: #fff;
 }
 header > .container {
@@ -143,4 +144,19 @@ form button {
 .form-campo textarea {
   resize: none;
   height: 120px;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  padding-block: 16px;
+}
+footer li {
+  margin-left: 10px;
+}
+footer li img {
+  height: 32px;
+}
+footer .container {
+  justify-content: space-between;
+  align-items: center;
 }
