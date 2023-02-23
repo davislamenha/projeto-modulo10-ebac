@@ -61,6 +61,7 @@ header > .container {
   padding-bottom: 16px;
 }
 nav {
+  display: none;
   background-color: #575fcf;
   padding-block: 16px;
 }
